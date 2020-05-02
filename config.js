@@ -5,5 +5,5 @@ module.exports = {
   JWT_SECRET: process.env.JWT_SECRET || 'secret1',
   MONGODB_URI:
     process.env.MONGODB_URI ||
-    'mongodb://rifandani:rifandani@cluster0-shard-00-00-a7b7z.mongodb.net:27017/test?authSource=admin&replicaSet=Cluster0-shard-0&readPreference=primaryPreferred&appname=MongoDB%20Compass&ssl=true',
+    'YOUR_MONGODB_CONNECTION_STRING',
 };
